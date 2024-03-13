@@ -165,13 +165,14 @@
         <a href="images/EMANUEL.pptx" class="btn btn2">Download CV</a>
            </div>
            <div class="contact-right">
-            <form name="submit-to-google-sheet " >
+            <form action="data.php" method='post' >
             
-               <input type= "text" name="Name" placeholder="Write your name" required>
+               <input type= "text" name="name" placeholder="Write your name" required>
                <input type= "email" name="email" placeholder="type your email" required>
             
-                <textarea name="Message" rows="6" placeholder="Send your message"></textarea>
-                <button type="submit" class="btn btn2">Submit</button>
+                <textarea name="message" rows="6" placeholder="Send your message"></textarea>
+                
+                <input type="submit" value="Submit" class="btn btn2" name='submit'>
             </form>
             <span id="msg"></span>
            </div>
