@@ -434,9 +434,21 @@ nav .fas{
    }
    
 } 
+<<<<<<< HEAD
 .top{
     padding: 5em;
     height: 5em;
     width: 80em;
     margin-left: 88em;
 }
+=======
+/* location */
+/* .container{
+    padding: 20px 20%;
+    width: fit-content;
+}
+.link{
+    width: 10em;
+    padding-left: 20px;
+} */
+>>>>>>> 68cf503489990da1cc77ec9e9dbe80dff326b1c0
