@@ -1,12 +1,16 @@
+<?php
+    $conn = new mysqli('localhost','root','','portfolio');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal portfollio website Easy Tutorials</title>
+    <title>Sley | Portfolio</title>
    
- <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href=" style.css">
  <script src="https://kit.fontawesome.com/41935454d5.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -41,8 +45,8 @@
                     <img src="images/pixel2.jpg" >
                 </div>
                 <div class="About-col2">
-                   
-                 <h1 class="sub-title">About Me</h1>
+
+                 <h1 class="sub-title">About Me<span>.</span></h1>
                  <p>My name is Emmanuel Sley from Congo, I'm 21 yrs old and i like reading and spending time on my computer , i'm an IT specialist based on three main subjects which are:   </p>
                  <ul>
 
@@ -50,7 +54,7 @@
                 <LI>CYBER SECURITY</LI>
                 <LI>And ETHICAL HACKING</LI>
             </ul>
-                <p>I'm a bit more different person, i like everything that goes together with technology and computer , my biggest dream is to own one day my own <mark>Networking & Cyber security Company</mark> and i'm bit sure that's going to be true one day </p>
+                <p>I'm a bit more different person, i like everything that goes together with technology and computer , my biggest dream is to own one day my own <span>Networking & Cyber security Company</span> and i'm bit sure that's going to be true one day </p>
                 <div class="tab-titles">
                     <P class="tab-links active-link" onclick="opentab('skills')">Skills</P>
                     <P class="tab-links"onclick= "opentab('Experiences')">Experiences</P> 
@@ -90,7 +94,7 @@
     <!------------services-------->
     <div id="services">
         <div class="container">
-            <h1 class="sub-title">My services</h1>
+            <h1 class="sub-title">My services<span>.</span></h1>
             <div class="services-list">
                 <div>
                     <i class="fa-brands fa-app-store"></i> 
@@ -101,7 +105,7 @@
                 </div>
                 <div>
                     <i class="fa-solid fa-route"></i>
-                    <h2>Network Administation and maintenance</h2>
+                    <h2>Network Maintenance</h2>
                     <p>Network design, maintenance, and administration are our main goal,<br> for anything rellating to the above fell free to ask for help or to contact of our group.</p>
                     <a href="#">Lean more</a>
                 </div>
@@ -118,7 +122,7 @@
     <!-------------portfolio--------->
     <div id="portfolio">
         <div class="container">
-            <h1 class="sub-title">My Work </h1>
+            <h1 class="sub-title">My Work<span>.</span></h1>
             <div class="work-list">
                 <div class="work">
                     <img src="images/sley2.jpeg">
@@ -131,7 +135,7 @@
                 <div class="work">
                     <img src="images/sley3.jpeg">
                     <div class="layer">
-                        <h3>Networ Administration</h3>
+                        <h3>network Administration</h3>
                         <p>This is a great tool in network management system and it's an essentiale skill in the current world</p>
                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
@@ -153,7 +157,7 @@
     <div class="container">
         <div class="row">
            <div class="contact-left">
-            <h1>Contact Me</h1>
+            <h1>Contact Me <span>💬</span></h1>
             <p> <i class="fa-solid fa-paper-plane"></i>emmanuelsley@533gmail.com</p>
             <p> <i class="fa-solid fa-phone"></i>+255685954740</p> 
             <div class="social-icons">
@@ -165,20 +169,20 @@
         <a href="images/EMANUEL.pptx" class="btn btn2">Download CV</a>
            </div>
            <div class="contact-right">
-            <form name="submit-to-google-sheet " >
+            <form action="data.php" method='POST'>
             
-               <input type= "text" name="Name" placeholder="Write your name" required>
-               <input type= "email" name="email" placeholder="type your email" required>
-            
-                <textarea name="Message" rows="6" placeholder="Send your message"></textarea>
-                <button type="submit" class="btn btn2">Submit</button>
+               <input type= "text" name="name" id="try" placeholder="Write your name " required><br>
+               <input type= "email" name="email" id="try" placeholder="type your email " required>
+                <textarea name="message" id="message" rows="8" placeholder="Send your message 💬💌"></textarea>
+                <button type="submit" value="submit" name="submit" class="btn btn2">Submit</button>
             </form>
             <span id="msg"></span>
            </div>
         </div>
     </div>
+    <a href="#header" class="top"> &uparrow; </a> 
     <div class="copyright">
-        <p> Copyright &copy; emmanuel. Made with <i class="fa-solid fa-heart"></i></p>
+        <p> Copyright &copy; All rigt reserved to <span>Emmanuel </span>  ✔✔</p>
     </div>
 </div>
 
@@ -202,7 +206,7 @@ function opentab(tabname) {
 
     </script>
     <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbwa5n0vhjVrNJBdUq5-XGu7zjh1okK2Qe1o89F5_Zwcjnh7J9jDuCQtR2XgOt9396eYbg/exec'
+        const script URL = 'https://script.google.com/macros/s/AKfycbwa5n0vhjVrNJBdUq5-XGu7zjh1okK2Qe1o89F5_Zwcjnh7J9jDuCQtR2XgOt9396eYbg/exec'
         const form = document.forms['submit-to-google-sheet']
       const msg=document.getElementById(msg)
 
@@ -229,7 +233,6 @@ function closemenu(){
 }
       </script>
       <!-- <a href="#header" class="top"> <button id= "back-to-top"><i class="fa-solid fa-arrow-up"></i></button></a> -->
-    <a href="#header" class="top"> &uparrow; </a> 
     
 </body>
 </html> 
