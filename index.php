@@ -1,32 +1,20 @@
-<<<<<<< HEAD
-<<<<<<<< HEAD:index.php
 <?php
     $conn = new mysqli('localhost','root','','portfolio');
 ?>
-========
->>>>>>>> 68cf503489990da1cc77ec9e9dbe80dff326b1c0:register.php
-
-=======
->>>>>>> 68cf503489990da1cc77ec9e9dbe80dff326b1c0
 <!DOCTYPE html>
 <html lang="en">
 <head>
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
-<<<<<<<< HEAD:index.php
     <title>Sley | Portfolio</title>
-========
     <title>Emmanuel | portfolio </title>
->>>>>>>> 68cf503489990da1cc77ec9e9dbe80dff326b1c0:register.php
+
    
  <link rel="stylesheet" href=" style.css">
-=======
     <title>Personal portfollio website Easy Tutorials</title>
    
  <link rel="stylesheet" href="style.css">
->>>>>>> 68cf503489990da1cc77ec9e9dbe80dff326b1c0
  <script src="https://kit.fontawesome.com/41935454d5.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -61,13 +49,8 @@
                     <img src="images/pixel2.jpg" >
                 </div>
                 <div class="About-col2">
-<<<<<<< HEAD
 
-                 <h1 class="sub-title">About Me<span>.</span></h1>
-=======
-                   
-                 <h1 class="sub-title">About Me</h1>
->>>>>>> 68cf503489990da1cc77ec9e9dbe80dff326b1c0
+                 <h1 class="sub-title">About Me<span>.</span></h1> 
                  <p>My name is Emmanuel Sley from Congo, I'm 21 yrs old and i like reading and spending time on my computer , i'm an IT specialist based on three main subjects which are:   </p>
                  <ul>
 
@@ -75,11 +58,8 @@
                 <LI>CYBER SECURITY</LI>
                 <LI>And ETHICAL HACKING</LI>
             </ul>
-<<<<<<< HEAD
                 <p>I'm a bit more different person, i like everything that goes together with technology and computer , my biggest dream is to own one day my own <span>Networking & Cyber security Company</span> and i'm bit sure that's going to be true one day </p>
-=======
                 <p>I'm a bit more different person, i like everything that goes together with technology and computer , my biggest dream is to own one day my own <mark>Networking & Cyber security Company</mark> and i'm bit sure that's going to be true one day </p>
->>>>>>> 68cf503489990da1cc77ec9e9dbe80dff326b1c0
                 <div class="tab-titles">
                     <P class="tab-links active-link" onclick="opentab('skills')">Skills</P>
                     <P class="tab-links"onclick= "opentab('Experiences')">Experiences</P> 
@@ -119,11 +99,7 @@
     <!------------services-------->
     <div id="services">
         <div class="container">
-<<<<<<< HEAD
             <h1 class="sub-title">My services<span>.</span></h1>
-=======
-            <h1 class="sub-title">My services</h1>
->>>>>>> 68cf503489990da1cc77ec9e9dbe80dff326b1c0
             <div class="services-list">
                 <div>
                     <i class="fa-brands fa-app-store"></i> 
@@ -134,11 +110,7 @@
                 </div>
                 <div>
                     <i class="fa-solid fa-route"></i>
-<<<<<<< HEAD
                     <h2>Network Maintenance</h2>
-=======
-                    <h2>Network Administation and maintenance</h2>
->>>>>>> 68cf503489990da1cc77ec9e9dbe80dff326b1c0
                     <p>Network design, maintenance, and administration are our main goal,<br> for anything rellating to the above fell free to ask for help or to contact of our group.</p>
                     <a href="#">Lean more</a>
                 </div>
@@ -155,11 +127,7 @@
     <!-------------portfolio--------->
     <div id="portfolio">
         <div class="container">
-<<<<<<< HEAD
             <h1 class="sub-title">My Work<span>.</span></h1>
-=======
-            <h1 class="sub-title">My Work </h1>
->>>>>>> 68cf503489990da1cc77ec9e9dbe80dff326b1c0
             <div class="work-list">
                 <div class="work">
                     <img src="images/sley2.jpeg">
@@ -172,11 +140,8 @@
                 <div class="work">
                     <img src="images/sley3.jpeg">
                     <div class="layer">
-<<<<<<< HEAD
                         <h3>network Administration</h3>
-=======
                         <h3>Networ Administration</h3>
->>>>>>> 68cf503489990da1cc77ec9e9dbe80dff326b1c0
                         <p>This is a great tool in network management system and it's an essentiale skill in the current world</p>
                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
@@ -198,11 +163,7 @@
     <div class="container">
         <div class="row">
            <div class="contact-left">
-<<<<<<< HEAD
             <h1>Contact Me <span>💬</span></h1>
-=======
-            <h1>Contact Me</h1>
->>>>>>> 68cf503489990da1cc77ec9e9dbe80dff326b1c0
             <p> <i class="fa-solid fa-paper-plane"></i>emmanuelsley@533gmail.com</p>
             <p> <i class="fa-solid fa-phone"></i>+255685954740</p> 
             <div class="social-icons">
@@ -214,44 +175,19 @@
         <a href="images/EMANUEL.pptx" class="btn btn2">Download CV</a>
            </div>
            <div class="contact-right">
-<<<<<<< HEAD
             <form action="data.php" method='POST'>
-            
-<<<<<<<< HEAD:index.php
                <input type= "text" name="name" id="try" placeholder="Write your name " required><br>
                <input type= "email" name="email" id="try" placeholder="type your email " required>
                 <textarea name="message" id="message" rows="8" placeholder="Send your message 💬💌"></textarea>
                 <button type="submit" value="submit" name="submit" class="btn btn2">Submit</button>
-========
-               <input type= "text" name="Name" placeholder="Write your name" required  name= "name">
-               <input type= "email" name="email" placeholder="type your email"  required name= "email">
-            
-                <textarea name="Message" rows="6" placeholder="Send your message" name = "message"></textarea>
-                <input type="submit" class="btn btn2" name= "submit"></input>
->>>>>>>> 68cf503489990da1cc77ec9e9dbe80dff326b1c0:register.php
-=======
-            <form action="data.php" method='post' >
-            
-               <input type= "text" name="name" placeholder="Write your name" required>
-               <input type= "email" name="email" placeholder="type your email" required>
-            
-                <textarea name="message" rows="6" placeholder="Send your message"></textarea>
-                
-                <input type="submit" value="Submit" class="btn btn2" name='submit'>
->>>>>>> 68cf503489990da1cc77ec9e9dbe80dff326b1c0
-            </form>
+              
             <span id="msg"></span>
            </div>
         </div>
     </div>
-<<<<<<< HEAD
     <a href="#header" class="top"> &uparrow; </a> 
     <div class="copyright">
         <p> Copyright &copy; All rigt reserved to <span>Emmanuel </span>  ✔✔</p>
-=======
-    <div class="copyright">
-        <p> Copyright &copy; emmanuel. Made with <i class="fa-solid fa-heart"></i></p>
->>>>>>> 68cf503489990da1cc77ec9e9dbe80dff326b1c0
     </div>
 </div>
 
@@ -275,11 +211,7 @@ function opentab(tabname) {
 
     </script>
     <script>
-<<<<<<< HEAD
         const script URL = 'https://script.google.com/macros/s/AKfycbwa5n0vhjVrNJBdUq5-XGu7zjh1okK2Qe1o89F5_Zwcjnh7J9jDuCQtR2XgOt9396eYbg/exec'
-=======
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbwa5n0vhjVrNJBdUq5-XGu7zjh1okK2Qe1o89F5_Zwcjnh7J9jDuCQtR2XgOt9396eYbg/exec'
->>>>>>> 68cf503489990da1cc77ec9e9dbe80dff326b1c0
         const form = document.forms['submit-to-google-sheet']
       const msg=document.getElementById(msg)
 
@@ -306,10 +238,6 @@ function closemenu(){
 }
       </script>
       <!-- <a href="#header" class="top"> <button id= "back-to-top"><i class="fa-solid fa-arrow-up"></i></button></a> -->
-<<<<<<< HEAD
-=======
-    <a href="#header" class="top"> &uparrow; </a> 
->>>>>>> 68cf503489990da1cc77ec9e9dbe80dff326b1c0
     
 </body>
 </html> 
